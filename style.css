@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: center; 
+    align-items: center;
+}
+
+.find-state{
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid blue;
+    background-color: grey;
+    text-align: center;
+    margin: 100px;
+    padding: 20px;
+}
+
+.find-state:hover{
+    background-color: darkkhaki;
+}
+
+.find-state:focus{
+    background-color: burlywood;
+    color: #0000;
+}
